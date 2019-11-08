@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>338CAD25-0CE9-4924-BB11-CC769BA95E08</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>338CAD25-0CE9-4924-BB11-CC769BA95E08.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>green_rural_service project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>green_rural_service</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace green_rural_service with scheme green_rural_service and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>594892220.28041995</real>
+			<key>timeStoppedRecording</key>
+			<real>594892223.46692395</real>
+			<key>title</key>
+			<string>Building workspace green_rural_service with scheme green_rural_service and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>338CAD25-0CE9-4924-BB11-CC769BA95E08</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

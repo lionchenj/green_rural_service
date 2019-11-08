@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>18CE3766-6ACF-490D-BE80-57B0A3E21C47</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>18CE3766-6ACF-490D-BE80-57B0A3E21C47.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>green_rural_service project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>green_rural_service</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace green_rural_service with scheme green_rural_service and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>594731203.43552601</real>
+			<key>timeStoppedRecording</key>
+			<real>594731430.54905999</real>
+			<key>title</key>
+			<string>Building workspace green_rural_service with scheme green_rural_service and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>18CE3766-6ACF-490D-BE80-57B0A3E21C47</string>
+		</dict>
+		<key>C709D94B-A69E-4680-8D8E-FE50A07ACA91</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C709D94B-A69E-4680-8D8E-FE50A07ACA91.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>green_rural_service project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>green_rural_service</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace green_rural_service with scheme green_rural_service and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>594741610.78308403</real>
+			<key>timeStoppedRecording</key>
+			<real>594741613.09367204</real>
+			<key>title</key>
+			<string>Building workspace green_rural_service with scheme green_rural_service and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>C709D94B-A69E-4680-8D8E-FE50A07ACA91</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

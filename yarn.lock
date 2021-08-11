@@ -1596,6 +1596,14 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+call-bind@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
+  integrity sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.2"
+
 caller-callsite@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/caller-callsite/-/caller-callsite-2.0.0.tgz#847e0fce0a223750a9a027c54b33731ad3154134"
@@ -2834,6 +2842,15 @@ get-caller-file@^1.0.1:
   resolved "https://registry.npmjs.org/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
   integrity sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w==
 
+get-intrinsic@^1.0.2:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.1.1.tgz#15f59f376f855c446963948f0d24cd3637b4abc6"
+  integrity sha512-kWZrnVM42QCiEA2Ig1bG8zjoIMOgxWwYCEeNdwY6Tv/cOSeGpcoX4pXHfKUxNKVoArnrEr2e9srnAxxGIraS9Q==
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -2941,6 +2958,11 @@ has-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.0.tgz#ba1a8f1af2a0fc39650f5c850367704122063b44"
   integrity sha1-uhqPGvKg/DllD1yFA2dwQSIGO0Q=
+
+has-symbols@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.2.tgz#165d3070c00309752a1236a479331e3ac56f1423"
+  integrity sha512-chXa79rL/UC2KlX17jo3vRGz0azaWEx5tGqZg5pO3NUyEJVB17dMruQlzCCOfUvElghKcm5194+BCRvi2Rv/Gw==
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -4836,6 +4858,11 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
+object-inspect@^1.9.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.11.0.tgz#9dceb146cedd4148a0d9e51ab88d34cf509922b1"
+  integrity sha512-jp7ikS6Sd3GxQfZJPyH3cjcbJF6GZPClgdV+EFygjFLQ5FmW/dRUnTd9PQ9k0JhoNDabWFbpF1yCdSWCC6gexg==
+
 object-keys@^1.0.11, object-keys@^1.0.12:
   version "1.1.1"
   resolved "https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
@@ -5122,9 +5149,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@^1.7.0:
   version "1.7.0"
@@ -5317,6 +5344,13 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+qs@^6.9.1:
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.1.tgz#4931482fa8d647a5aab799c5271d2133b981fb6a"
+  integrity sha512-M528Hph6wsSVOBiYUnGf+K/7w0hNshs/duGsNXPUCLH5XAqjEtiPGwNONLV0tBH8NoGb0mvD5JubnUTrujKDTg==
+  dependencies:
+    side-channel "^1.0.4"
+
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
@@ -5378,14 +5412,14 @@ react-lifecycles-compat@^3.0.4:
 
 react-native-animatable@^1.3.1:
   version "1.3.2"
-  resolved "http://r.cnpmjs.org/react-native-animatable/download/react-native-animatable-1.3.2.tgz#4783ee1a73dc98815aef234ce6b819f80bfe7d80"
+  resolved "https://r.cnpmjs.org/react-native-animatable/download/react-native-animatable-1.3.2.tgz#4783ee1a73dc98815aef234ce6b819f80bfe7d80"
   integrity sha1-R4PuGnPcmIFa7yNM5rgZ+Av+fYA=
   dependencies:
     prop-types "^15.5.10"
 
 react-native-banner-carousel@^1.0.3:
   version "1.0.3"
-  resolved "http://r.cnpmjs.org/react-native-banner-carousel/download/react-native-banner-carousel-1.0.3.tgz#83d760233cd7496b595a3c1e51399ffcb16edcb2"
+  resolved "https://r.cnpmjs.org/react-native-banner-carousel/download/react-native-banner-carousel-1.0.3.tgz#83d760233cd7496b595a3c1e51399ffcb16edcb2"
   integrity sha1-g9dgIzzXSWtZWjweUTmf/LFu3LI=
 
 react-native-drawer@2.5.1:
@@ -5432,7 +5466,7 @@ react-native-image-pan-zoom@^2.1.9:
 
 react-native-image-picker@^1.0.2:
   version "1.0.2"
-  resolved "http://r.cnpmjs.org/react-native-image-picker/download/react-native-image-picker-1.0.2.tgz#8b0ffe89d7dd97bef1f7e317f313f90549b126b3"
+  resolved "https://r.cnpmjs.org/react-native-image-picker/download/react-native-image-picker-1.0.2.tgz#8b0ffe89d7dd97bef1f7e317f313f90549b126b3"
   integrity sha1-iw/+idfdl77x9+MX8xP5BUmxJrM=
 
 react-native-image-zoom-viewer@^2.2.26:
@@ -5457,7 +5491,7 @@ react-native-keyboard-aware-scroll-view@0.8.0:
 
 react-native-modal@^11.3.1:
   version "11.3.1"
-  resolved "http://r.cnpmjs.org/react-native-modal/download/react-native-modal-11.3.1.tgz#9f67728b36fdc299f97d3da1d131190a0337b89b"
+  resolved "https://r.cnpmjs.org/react-native-modal/download/react-native-modal-11.3.1.tgz#9f67728b36fdc299f97d3da1d131190a0337b89b"
   integrity sha1-n2dyizb9wpn5fT2h0TEZCgM3uJs=
   dependencies:
     prop-types "^15.6.2"
@@ -5473,7 +5507,7 @@ react-native-ratings@^6.3.0:
 
 react-native-root-siblings@^3.2.1:
   version "3.2.1"
-  resolved "http://r.cnpmjs.org/react-native-root-siblings/download/react-native-root-siblings-3.2.1.tgz#06bd8722babe8a30e914b73eae4beffa3218ec57"
+  resolved "https://r.cnpmjs.org/react-native-root-siblings/download/react-native-root-siblings-3.2.1.tgz#06bd8722babe8a30e914b73eae4beffa3218ec57"
   integrity sha1-Br2HIrq+ijDpFLc+rkvv+jIY7Fc=
   dependencies:
     prop-types "^15.6.2"
@@ -6144,6 +6178,15 @@ shellwords@^0.1.1:
   resolved "https://registry.npmjs.org/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
 
+side-channel@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
+  integrity sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==
+  dependencies:
+    call-bind "^1.0.0"
+    get-intrinsic "^1.0.2"
+    object-inspect "^1.9.0"
+
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -6325,7 +6368,7 @@ stacktrace-parser@^0.1.3:
 
 static-container@^1.0.0:
   version "1.3.0"
-  resolved "http://r.cnpmjs.org/static-container/download/static-container-1.3.0.tgz#e4f7b4be4e42954e3d1955ab7b3974a78b7bad87"
+  resolved "https://r.cnpmjs.org/static-container/download/static-container-1.3.0.tgz#e4f7b4be4e42954e3d1955ab7b3974a78b7bad87"
   integrity sha1-5Pe0vk5ClU49GVWrezl0p4t7rYc=
 
 static-extend@^0.1.1:
